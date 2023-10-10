@@ -1,7 +1,7 @@
 .tester {
 display:flex;
 justify-content: space-around;
-margin-top: 200px;
+margin-top: 80px;
 }
 
 h1 {
@@ -12,7 +12,6 @@ font-family: 'Istok Web', sans-serif;
 font-size: 128px;
 stroke: 2px black;
 -webkit-text-stroke: 3px black;
-  text-stroke: 3px black;
 }
 
 body {
@@ -41,3 +40,16 @@ body {
     color: #808080;
     padding-left: 32px;
 }
+
+pre, h2{
+    font-family: 'Istok Web', sans-serif;
+    font-size: 20px;
+    margin-left: 35px;  
+}
+
+h2 {
+    font-size: 30px;
+}
+
+
+

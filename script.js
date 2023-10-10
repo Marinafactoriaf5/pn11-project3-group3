@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const fetchDataButton = document.getElementById('enter');
-    const urlInput = document.getElementById('cajita');
-    const responseData = document.getElementById('responseData');
+    const fetchDataButton = document.querySelector('#enter');
+    const urlInput = document.querySelector('.cajita');
+    const responseData = document.querySelector('#responseData');
 
     fetchDataButton.addEventListener('click', async () => {
         const apiUrl = urlInput.value;
