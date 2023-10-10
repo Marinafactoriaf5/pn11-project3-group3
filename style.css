@@ -10,4 +10,14 @@ color: #219299;
 font-family: 'Istok Web', sans-serif;
 font-size: 128px;
 stroke: 2px black;
+-webkit-text-stroke: 2px black;
+  text-stroke: 2px black;
+}
+
+body {
+    background-color: #dadada;
+}
+
+.buttonclass {
+    
 }
