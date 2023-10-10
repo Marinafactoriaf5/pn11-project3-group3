@@ -1,6 +1,7 @@
 .tester {
 display:flex;
 justify-content: space-around;
+margin-top: 200px;
 }
 
 h1 {
@@ -10,8 +11,8 @@ color: #219299;
 font-family: 'Istok Web', sans-serif;
 font-size: 128px;
 stroke: 2px black;
--webkit-text-stroke: 2px black;
-  text-stroke: 2px black;
+-webkit-text-stroke: 3px black;
+  text-stroke: 3px black;
 }
 
 body {
@@ -19,5 +20,24 @@ body {
 }
 
 .buttonclass {
-    
+    width: 253px;
+    height: 64px;
+    border: 3px solid black;
+    border-radius: 32px;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 33px;
+    color: white;
+    background-color:  #219299;
+}
+
+.cajita{
+    width: 718px;
+    height: 64px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 32px;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 33px;
+    color: #808080;
+    padding-left: 32px;
 }
