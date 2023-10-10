@@ -15,7 +15,8 @@ stroke: 2px black;
 }
 
 body {
-    background-color: #dadada;
+background-image: url(/Imagenes/fondo.jpg);
+background-repeat: repeat;
 }
 
 .buttonclass {
@@ -49,6 +50,10 @@ pre, h2{
 
 h2 {
     font-size: 30px;
+}
+
+.response {
+    background-color:rgba(255,255,255,0.7);
 }
 
 
