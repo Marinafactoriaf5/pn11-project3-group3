@@ -18,7 +18,7 @@ body{
 h1 {
     display: flex;
     justify-content: center;
-    color: #1df1be;
+    color: #f7e128;
     font-family: 'Istok Web', sans-serif;
     font-size: 128px;
     stroke: 2px black;
@@ -33,7 +33,8 @@ h1 {
     font-family: 'Istok Web', sans-serif;
     font-size: 33px;
     color:#3b3b3b;
-    background-color: #1df1be;
+    background-color: #f7e128;
+    cursor: pointer;
 }
 
 .cajita{
@@ -46,6 +47,7 @@ h1 {
     font-size: 33px;
     color: #808080;
     padding-left: 32px;
+    cursor: pointer;
 }
 
 pre, h2{
@@ -69,14 +71,14 @@ h2 {
 }
 
 header{
-    background-color: #1df1be;
+    background-color: #f7e128;
     height: 60px;
     margin-top: 0 auto;
     margin-bottom: 50px;
 }
 
 footer{
-    background-color: #1df1be;
+    background-color: #f7e128;
     height: 60px;
     width: 100%;
     bottom: 0;
@@ -84,5 +86,6 @@ footer{
     margin-top: 60px;
 }
 
-
-
+.buttonclass:hover {
+    background-color: #d3b80b;
+}
