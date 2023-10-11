@@ -1,28 +1,28 @@
 
 *{
-margin:0;
-padding: 0;
+    margin:0;
+    padding: 0;
 }
 
 .tester {
-display:flex;
-justify-content: space-around;
-margin-top: 50px
+    display:flex;
+    justify-content: space-around;
+    margin-top: 50px
 }
 
 body{
-    background-image: url(/Imagenes/Fondo.png);
+    background-image: url(/Imagenes/fondo.jpg);
     background-repeat: repeat;
 }
 
 h1 {
-display: flex;
-justify-content: center;
-color: #1df1be;
-font-family: 'Istok Web', sans-serif;
-font-size: 128px;
-stroke: 2px black;
--webkit-text-stroke: 3px black;
+    display: flex;
+    justify-content: center;
+    color: #1df1be;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 128px;
+    stroke: 2px black;
+    -webkit-text-stroke: 3px black;
 }
 
 .buttonclass {
@@ -59,12 +59,13 @@ h2 {
 }
 
 .response {
-    background-color:rgba(255,255,255, 0.75);*/
-    margin-left: 20px;
-    margin-right: 20px;
+    background-color:rgba(255,255,255, 0.75);
+    margin-left: 42px;
     border-radius: 32px;
-    max-width: 1409px;
+    max-width: 1435px;
     display: flex;
+    
+    margin-top: 60px;
 }
 
 header{
@@ -76,9 +77,11 @@ header{
 
 footer{
     background-color: #1df1be;
-    margin-bottom: 0px auto; 
     height: 60px;
-    margin-top: 210px;
+    width: 100%;
+    bottom: 0;
+    position:relative;
+    margin-top: 60px;
 }
 
 
