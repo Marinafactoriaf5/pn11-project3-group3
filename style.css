@@ -1,22 +1,28 @@
+
+*{
+margin:0;
+padding: 0;
+}
+
 .tester {
 display:flex;
 justify-content: space-around;
-margin-top: 80px;
+margin-top: 50px
+}
+
+body{
+    background-image: url(/Imagenes/Fondo.png);
+    background-repeat: repeat;
 }
 
 h1 {
 display: flex;
 justify-content: center;
-color: #219299;
+color: #1df1be;
 font-family: 'Istok Web', sans-serif;
 font-size: 128px;
 stroke: 2px black;
 -webkit-text-stroke: 3px black;
-}
-
-body {
-background-image: url(/Imagenes/fondo.jpg);
-background-repeat: repeat;
 }
 
 .buttonclass {
@@ -26,13 +32,13 @@ background-repeat: repeat;
     border-radius: 32px;
     font-family: 'Istok Web', sans-serif;
     font-size: 33px;
-    color: white;
-    background-color:  #219299;
+    color:#3b3b3b;
+    background-color: #1df1be;
 }
 
 .cajita{
     width: 718px;
-    height: 64px;
+    height: 58px;
     background-color: white;
     border: 3px solid black;
     border-radius: 32px;
@@ -53,12 +59,26 @@ h2 {
 }
 
 .response {
-    background-color:rgba(255,255,255,0.7);
+    background-color:rgba(255,255,255, 0.75);*/
     margin-left: 20px;
     margin-right: 20px;
     border-radius: 32px;
     max-width: 1409px;
     display: flex;
+}
+
+header{
+    background-color: #1df1be;
+    height: 60px;
+    margin-top: 0 auto;
+    margin-bottom: 50px;
+}
+
+footer{
+    background-color: #1df1be;
+    margin-bottom: 0px auto; 
+    height: 60px;
+    margin-top: 210px;
 }
 
 
