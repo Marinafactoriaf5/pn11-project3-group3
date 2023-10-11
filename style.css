@@ -25,7 +25,7 @@ h1 {
     -webkit-text-stroke: 3px black;
 }
 
-.buttonclass {
+.buttonclass, select {
     width: 253px;
     height: 64px;
     border: 3px solid black;
@@ -65,10 +65,22 @@ h2 {
     margin-left: 42px;
     border-radius: 32px;
     max-width: 1435px;
+    min-height: 400px;
     display: flex;
-    
     margin-top: 60px;
+    overflow: scroll;
+    height: 60vh;
+    scrollbar-width: none;
 }
+
+.response::-webkit-scrollbar{
+    display: none;
+  }
+
+  .response {
+    -ms-overflow-style: none;
+  }
+
 
 header{
     background-color: #f7e128;
@@ -88,4 +100,15 @@ footer{
 
 .buttonclass:hover {
     background-color: #d3b80b;
+}
+
+option{
+    background-color: #f7e128;
+    text-align: center;
+    font-size: 23px;
+}
+
+#texto{
+    font-family: 'Istok Web', sans-serif;
+    padding-bottom: 30px;
 }

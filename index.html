@@ -12,11 +12,17 @@
     <Header></Header>
     <h1>SEIF THE WORLD</h1>
     <section class="tester"> 
-        <button id="get" class="buttonclass">GET</button>
+        <select class=“buttonclass”>
+            <option value=“GET” selected=“selected”>GET</option>
+            <option value=“PUT”>PUT</option>
+            <option value=“POST”>POST</option>
+            <option value=“DELETE”>DELETE</option>
+        </select>
         <input class="cajita" type="text" placeholder="URL">
         <button id="enter" class="buttonclass">ENTER</button>
     </section>
     <div class="response">
+        <p id="texto">  </p>
         <pre id="responseData"></pre>
     </div>
     <script src="script.js"></script>
