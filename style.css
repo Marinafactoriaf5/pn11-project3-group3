@@ -7,11 +7,11 @@
 .tester {
     display:flex;
     justify-content: space-around;
-    margin-top: 50px
+    margin-top: 20px;
 }
 
 body{
-    background-image: url(/Imagenes/fondotrans.jpg);
+    background-image: url(Imagenes/fondotrans.jpg);
     background-repeat: repeat;
 }
 
@@ -71,22 +71,19 @@ h2 {
     overflow: scroll;
     height: 60vh;
     scrollbar-width: none;
+    -ms-overflow-style: none;
+    overflow-x: hidden;
 }
 
-.response::-webkit-scrollbar{
-    display: none;
-  }
-
-  .response {
-    -ms-overflow-style: none;
-  }
-
+#responseData{
+    padding-left: -300px;
+}
 
 header{
     background-color: #f7e128;
     height: 60px;
     margin-top: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 footer{
@@ -99,7 +96,7 @@ footer{
 }
 
 .buttonclass:hover {
-    background-color: #d3b80b;
+    background-color: #d9c939;
 }
 
 option{
