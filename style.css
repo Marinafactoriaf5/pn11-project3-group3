@@ -109,3 +109,13 @@ option{
     font-family: 'Istok Web', sans-serif;
     padding-bottom: 30px;
 }
+
+#errorContainer{
+    margin-left: 40%;
+    font-family: 'Istok Web', sans-serif;
+    margin-top: 1%;
+}
+
+#responseData{
+    margin-top: 1%;
+}
