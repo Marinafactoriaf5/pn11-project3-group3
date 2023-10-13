@@ -20,14 +20,14 @@ h1 {
     justify-content: center;
     color: #f7e128;
     font-family: 'Istok Web', sans-serif;
-    font-size: 128px;
+    font-size: 100px;
     stroke: 2px black;
     -webkit-text-stroke: 3px black;
 }
 
 .buttonclass, select {
     width: 253px;
-    height: 64px;
+    height: 56px;
     border: 3px solid black;
     border-radius: 32px;
     font-family: 'Istok Web', sans-serif;
@@ -39,7 +39,7 @@ h1 {
 
 .cajita{
     width: 718px;
-    height: 58px;
+    height: 50px;
     background-color: white;
     border: 3px solid black;
     border-radius: 32px;
@@ -64,31 +64,31 @@ h2 {
     background-color:rgba(255,255,255, 0.75);
     margin-left: 42px;
     border-radius: 32px;
-    max-width: 1435px;
-    min-height: 400px;
+    max-width: 93%;
+    min-height: 200px;
     display: flex;
-    margin-top: 60px;
+    margin-top: 50px;
     overflow: scroll;
-    height: 60vh;
+    height: 50vh;
     scrollbar-width: none;
     -ms-overflow-style: none;
     overflow-x: hidden;
 }
 
 #responseData{
-    padding-left: -300px;
+    margin: auto;
 }
 
 header{
     background-color: #f7e128;
-    height: 60px;
+    height: 30px;
     margin-top: 0 auto;
     margin-bottom: 20px;
 }
 
 footer{
     background-color: #f7e128;
-    height: 60px;
+    height:30px;
     width: 100%;
     bottom: 0;
     position:relative;
